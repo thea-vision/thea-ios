@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE11962C0682815C4A41085 /* Pods_TheaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ABF4E61513E2C5B68CD8F8 /* Pods_TheaUITests.framework */; };
+		4940136C7D80A3C59C0B6B30 /* Pods_Thea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C689B32E38EE0E63326DFEA /* Pods_Thea.framework */; };
+		661D0B4C1E14BF4F00B5C733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D0B4B1E14BF4F00B5C733 /* AppDelegate.swift */; };
+		661D0B4E1E14BF4F00B5C733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D0B4D1E14BF4F00B5C733 /* ViewController.swift */; };
+		661D0B511E14BF4F00B5C733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661D0B4F1E14BF4F00B5C733 /* Main.storyboard */; };
+		661D0B541E14BF4F00B5C733 /* Thea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 661D0B521E14BF4F00B5C733 /* Thea.xcdatamodeld */; };
+		661D0B561E14BF4F00B5C733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661D0B551E14BF4F00B5C733 /* Assets.xcassets */; };
+		661D0B591E14BF4F00B5C733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661D0B571E14BF4F00B5C733 /* LaunchScreen.storyboard */; };
+		661D0B641E14BF4F00B5C733 /* TheaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D0B631E14BF4F00B5C733 /* TheaTests.swift */; };
+		661D0B6F1E14BF4F00B5C733 /* TheaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D0B6E1E14BF4F00B5C733 /* TheaUITests.swift */; };
+		C846660CE952D80C806F1515 /* Pods_TheaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A619BF6DD93820BA83928C9 /* Pods_TheaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661D0B601E14BF4F00B5C733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661D0B401E14BF4F00B5C733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661D0B471E14BF4F00B5C733;
+			remoteInfo = Thea;
+		};
+		661D0B6B1E14BF4F00B5C733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661D0B401E14BF4F00B5C733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661D0B471E14BF4F00B5C733;
+			remoteInfo = Thea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8F15F7E6B77B1BCA80AF6B /* Pods-Thea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thea.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thea/Pods-Thea.release.xcconfig"; sourceTree = "<group>"; };
+		1144CF86EFB8495A807EF243 /* Pods-TheaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheaTests/Pods-TheaTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A619BF6DD93820BA83928C9 /* Pods_TheaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D0B481E14BF4F00B5C733 /* Thea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D0B4B1E14BF4F00B5C733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		661D0B4D1E14BF4F00B5C733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		661D0B501E14BF4F00B5C733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661D0B531E14BF4F00B5C733 /* Thea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thea.xcdatamodel; sourceTree = "<group>"; };
+		661D0B551E14BF4F00B5C733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661D0B581E14BF4F00B5C733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661D0B5A1E14BF4F00B5C733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661D0B5F1E14BF4F00B5C733 /* TheaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D0B631E14BF4F00B5C733 /* TheaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaTests.swift; sourceTree = "<group>"; };
+		661D0B651E14BF4F00B5C733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661D0B6A1E14BF4F00B5C733 /* TheaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D0B6E1E14BF4F00B5C733 /* TheaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaUITests.swift; sourceTree = "<group>"; };
+		661D0B701E14BF4F00B5C733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C689B32E38EE0E63326DFEA /* Pods_Thea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97ABF4E61513E2C5B68CD8F8 /* Pods_TheaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D1B9195AE199D60E84B37 /* Pods-Thea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thea/Pods-Thea.debug.xcconfig"; sourceTree = "<group>"; };
+		C874B987224675BE76CC807E /* Pods-TheaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheaUITests/Pods-TheaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E52D84C55FC91F4D950706D4 /* Pods-TheaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheaTests/Pods-TheaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F47524D7CF58D8BEE37048D4 /* Pods-TheaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheaUITests/Pods-TheaUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661D0B451E14BF4F00B5C733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4940136C7D80A3C59C0B6B30 /* Pods_Thea.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B5C1E14BF4F00B5C733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C846660CE952D80C806F1515 /* Pods_TheaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B671E14BF4F00B5C733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE11962C0682815C4A41085 /* Pods_TheaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C31679D2F19F7E08D8A1FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D1B9195AE199D60E84B37 /* Pods-Thea.debug.xcconfig */,
+				0E8F15F7E6B77B1BCA80AF6B /* Pods-Thea.release.xcconfig */,
+				E52D84C55FC91F4D950706D4 /* Pods-TheaTests.debug.xcconfig */,
+				1144CF86EFB8495A807EF243 /* Pods-TheaTests.release.xcconfig */,
+				C874B987224675BE76CC807E /* Pods-TheaUITests.debug.xcconfig */,
+				F47524D7CF58D8BEE37048D4 /* Pods-TheaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		552EB6F725664D204DBC4483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C689B32E38EE0E63326DFEA /* Pods_Thea.framework */,
+				4A619BF6DD93820BA83928C9 /* Pods_TheaTests.framework */,
+				97ABF4E61513E2C5B68CD8F8 /* Pods_TheaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		661D0B3F1E14BF4F00B5C733 = {
+			isa = PBXGroup;
+			children = (
+				661D0B4A1E14BF4F00B5C733 /* Thea */,
+				661D0B621E14BF4F00B5C733 /* TheaTests */,
+				661D0B6D1E14BF4F00B5C733 /* TheaUITests */,
+				661D0B491E14BF4F00B5C733 /* Products */,
+				38C31679D2F19F7E08D8A1FF /* Pods */,
+				552EB6F725664D204DBC4483 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		661D0B491E14BF4F00B5C733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661D0B481E14BF4F00B5C733 /* Thea.app */,
+				661D0B5F1E14BF4F00B5C733 /* TheaTests.xctest */,
+				661D0B6A1E14BF4F00B5C733 /* TheaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661D0B4A1E14BF4F00B5C733 /* Thea */ = {
+			isa = PBXGroup;
+			children = (
+				661D0B4B1E14BF4F00B5C733 /* AppDelegate.swift */,
+				661D0B4D1E14BF4F00B5C733 /* ViewController.swift */,
+				661D0B4F1E14BF4F00B5C733 /* Main.storyboard */,
+				661D0B551E14BF4F00B5C733 /* Assets.xcassets */,
+				661D0B571E14BF4F00B5C733 /* LaunchScreen.storyboard */,
+				661D0B5A1E14BF4F00B5C733 /* Info.plist */,
+				661D0B521E14BF4F00B5C733 /* Thea.xcdatamodeld */,
+			);
+			path = Thea;
+			sourceTree = "<group>";
+		};
+		661D0B621E14BF4F00B5C733 /* TheaTests */ = {
+			isa = PBXGroup;
+			children = (
+				661D0B631E14BF4F00B5C733 /* TheaTests.swift */,
+				661D0B651E14BF4F00B5C733 /* Info.plist */,
+			);
+			path = TheaTests;
+			sourceTree = "<group>";
+		};
+		661D0B6D1E14BF4F00B5C733 /* TheaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				661D0B6E1E14BF4F00B5C733 /* TheaUITests.swift */,
+				661D0B701E14BF4F00B5C733 /* Info.plist */,
+			);
+			path = TheaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661D0B471E14BF4F00B5C733 /* Thea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D0B731E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "Thea" */;
+			buildPhases = (
+				1CB3D8F46700D3B6C6EA29AC /* [CP] Check Pods Manifest.lock */,
+				661D0B441E14BF4F00B5C733 /* Sources */,
+				661D0B451E14BF4F00B5C733 /* Frameworks */,
+				661D0B461E14BF4F00B5C733 /* Resources */,
+				9F764479941035546467E7E9 /* [CP] Embed Pods Frameworks */,
+				23161261CB3118B1ADD15E8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thea;
+			productName = Thea;
+			productReference = 661D0B481E14BF4F00B5C733 /* Thea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661D0B5E1E14BF4F00B5C733 /* TheaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D0B761E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "TheaTests" */;
+			buildPhases = (
+				78A4606119C0CD6212F7F976 /* [CP] Check Pods Manifest.lock */,
+				661D0B5B1E14BF4F00B5C733 /* Sources */,
+				661D0B5C1E14BF4F00B5C733 /* Frameworks */,
+				661D0B5D1E14BF4F00B5C733 /* Resources */,
+				A865111DFC184BA8B661967C /* [CP] Embed Pods Frameworks */,
+				AA19CACD469401363EF8BB54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661D0B611E14BF4F00B5C733 /* PBXTargetDependency */,
+			);
+			name = TheaTests;
+			productName = TheaTests;
+			productReference = 661D0B5F1E14BF4F00B5C733 /* TheaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		661D0B691E14BF4F00B5C733 /* TheaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D0B791E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "TheaUITests" */;
+			buildPhases = (
+				091C21BA9F1EBA4366EC2572 /* [CP] Check Pods Manifest.lock */,
+				661D0B661E14BF4F00B5C733 /* Sources */,
+				661D0B671E14BF4F00B5C733 /* Frameworks */,
+				661D0B681E14BF4F00B5C733 /* Resources */,
+				6CCD9A4DD042F7AB643CEB21 /* [CP] Embed Pods Frameworks */,
+				DD22B7D5AC800EBECEBC8351 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661D0B6C1E14BF4F00B5C733 /* PBXTargetDependency */,
+			);
+			name = TheaUITests;
+			productName = TheaUITests;
+			productReference = 661D0B6A1E14BF4F00B5C733 /* TheaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661D0B401E14BF4F00B5C733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sohan Vichare";
+				TargetAttributes = {
+					661D0B471E14BF4F00B5C733 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 79PQS2BBV4;
+						ProvisioningStyle = Automatic;
+					};
+					661D0B5E1E14BF4F00B5C733 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 661D0B471E14BF4F00B5C733;
+					};
+					661D0B691E14BF4F00B5C733 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 661D0B471E14BF4F00B5C733;
+					};
+				};
+			};
+			buildConfigurationList = 661D0B431E14BF4F00B5C733 /* Build configuration list for PBXProject "Thea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661D0B3F1E14BF4F00B5C733;
+			productRefGroup = 661D0B491E14BF4F00B5C733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661D0B471E14BF4F00B5C733 /* Thea */,
+				661D0B5E1E14BF4F00B5C733 /* TheaTests */,
+				661D0B691E14BF4F00B5C733 /* TheaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661D0B461E14BF4F00B5C733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D0B591E14BF4F00B5C733 /* LaunchScreen.storyboard in Resources */,
+				661D0B561E14BF4F00B5C733 /* Assets.xcassets in Resources */,
+				661D0B511E14BF4F00B5C733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B5D1E14BF4F00B5C733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B681E14BF4F00B5C733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091C21BA9F1EBA4366EC2572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB3D8F46700D3B6C6EA29AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23161261CB3118B1ADD15E8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thea/Pods-Thea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CCD9A4DD042F7AB643CEB21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheaUITests/Pods-TheaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A4606119C0CD6212F7F976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F764479941035546467E7E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thea/Pods-Thea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A865111DFC184BA8B661967C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheaTests/Pods-TheaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA19CACD469401363EF8BB54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheaTests/Pods-TheaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD22B7D5AC800EBECEBC8351 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheaUITests/Pods-TheaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661D0B441E14BF4F00B5C733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D0B541E14BF4F00B5C733 /* Thea.xcdatamodeld in Sources */,
+				661D0B4E1E14BF4F00B5C733 /* ViewController.swift in Sources */,
+				661D0B4C1E14BF4F00B5C733 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B5B1E14BF4F00B5C733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D0B641E14BF4F00B5C733 /* TheaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661D0B661E14BF4F00B5C733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D0B6F1E14BF4F00B5C733 /* TheaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		661D0B611E14BF4F00B5C733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661D0B471E14BF4F00B5C733 /* Thea */;
+			targetProxy = 661D0B601E14BF4F00B5C733 /* PBXContainerItemProxy */;
+		};
+		661D0B6C1E14BF4F00B5C733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661D0B471E14BF4F00B5C733 /* Thea */;
+			targetProxy = 661D0B6B1E14BF4F00B5C733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		661D0B4F1E14BF4F00B5C733 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661D0B501E14BF4F00B5C733 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661D0B571E14BF4F00B5C733 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661D0B581E14BF4F00B5C733 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661D0B711E14BF4F00B5C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		661D0B721E14BF4F00B5C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661D0B741E14BF4F00B5C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4D1B9195AE199D60E84B37 /* Pods-Thea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79PQS2BBV4;
+				INFOPLIST_FILE = Thea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.Thea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		661D0B751E14BF4F00B5C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8F15F7E6B77B1BCA80AF6B /* Pods-Thea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79PQS2BBV4;
+				INFOPLIST_FILE = Thea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.Thea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		661D0B771E14BF4F00B5C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52D84C55FC91F4D950706D4 /* Pods-TheaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.TheaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thea.app/Thea";
+			};
+			name = Debug;
+		};
+		661D0B781E14BF4F00B5C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1144CF86EFB8495A807EF243 /* Pods-TheaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.TheaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thea.app/Thea";
+			};
+			name = Release;
+		};
+		661D0B7A1E14BF4F00B5C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C874B987224675BE76CC807E /* Pods-TheaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TheaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.TheaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thea;
+			};
+			name = Debug;
+		};
+		661D0B7B1E14BF4F00B5C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47524D7CF58D8BEE37048D4 /* Pods-TheaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TheaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sovicx.TheaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661D0B431E14BF4F00B5C733 /* Build configuration list for PBXProject "Thea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D0B711E14BF4F00B5C733 /* Debug */,
+				661D0B721E14BF4F00B5C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661D0B731E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "Thea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D0B741E14BF4F00B5C733 /* Debug */,
+				661D0B751E14BF4F00B5C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661D0B761E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "TheaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D0B771E14BF4F00B5C733 /* Debug */,
+				661D0B781E14BF4F00B5C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661D0B791E14BF4F00B5C733 /* Build configuration list for PBXNativeTarget "TheaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D0B7A1E14BF4F00B5C733 /* Debug */,
+				661D0B7B1E14BF4F00B5C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		661D0B521E14BF4F00B5C733 /* Thea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				661D0B531E14BF4F00B5C733 /* Thea.xcdatamodel */,
+			);
+			currentVersion = 661D0B531E14BF4F00B5C733 /* Thea.xcdatamodel */;
+			path = Thea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 661D0B401E14BF4F00B5C733 /* Project object */;
+}

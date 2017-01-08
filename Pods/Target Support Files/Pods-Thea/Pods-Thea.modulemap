@@ -1,0 +1,6 @@
+framework module Pods_Thea {
+  umbrella header "Pods-Thea-umbrella.h"
+
+  export *
+  module * { export * }
+}
